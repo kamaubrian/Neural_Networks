@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NeuralNetwork.dir/main.cpp.o"
+  "CMakeFiles/NeuralNetwork.dir/neural.cpp.o"
   "NeuralNetwork.pdb"
   "NeuralNetwork"
 )

@@ -123,32 +123,32 @@ NeuralNetwork/fast:
 	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/build
 .PHONY : NeuralNetwork/fast
 
-main.o: main.cpp.o
+neural.o: neural.cpp.o
 
-.PHONY : main.o
+.PHONY : neural.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/main.cpp.o
-.PHONY : main.cpp.o
+neural.cpp.o:
+	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/neural.cpp.o
+.PHONY : neural.cpp.o
 
-main.i: main.cpp.i
+neural.i: neural.cpp.i
 
-.PHONY : main.i
+.PHONY : neural.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/main.cpp.i
-.PHONY : main.cpp.i
+neural.cpp.i:
+	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/neural.cpp.i
+.PHONY : neural.cpp.i
 
-main.s: main.cpp.s
+neural.s: neural.cpp.s
 
-.PHONY : main.s
+.PHONY : neural.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/main.cpp.s
-.PHONY : main.cpp.s
+neural.cpp.s:
+	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/neural.cpp.s
+.PHONY : neural.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... NeuralNetwork"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... neural.o"
+	@echo "... neural.i"
+	@echo "... neural.s"
 .PHONY : help
 
 

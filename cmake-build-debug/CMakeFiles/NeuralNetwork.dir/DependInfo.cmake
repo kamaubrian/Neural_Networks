@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/brian-kamau/CLionProjects/NeuralNetwork/main.cpp" "/home/brian-kamau/CLionProjects/NeuralNetwork/cmake-build-debug/CMakeFiles/NeuralNetwork.dir/main.cpp.o"
+  "/home/brian-kamau/CLionProjects/NeuralNetwork/neural.cpp" "/home/brian-kamau/CLionProjects/NeuralNetwork/cmake-build-debug/CMakeFiles/NeuralNetwork.dir/neural.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

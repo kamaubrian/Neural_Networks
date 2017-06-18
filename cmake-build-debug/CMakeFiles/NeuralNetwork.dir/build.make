@@ -57,38 +57,38 @@ include CMakeFiles/NeuralNetwork.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NeuralNetwork.dir/flags.make
 
-CMakeFiles/NeuralNetwork.dir/main.cpp.o: CMakeFiles/NeuralNetwork.dir/flags.make
-CMakeFiles/NeuralNetwork.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brian-kamau/CLionProjects/NeuralNetwork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeuralNetwork.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuralNetwork.dir/main.cpp.o -c /home/brian-kamau/CLionProjects/NeuralNetwork/main.cpp
+CMakeFiles/NeuralNetwork.dir/neural.cpp.o: CMakeFiles/NeuralNetwork.dir/flags.make
+CMakeFiles/NeuralNetwork.dir/neural.cpp.o: ../neural.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brian-kamau/CLionProjects/NeuralNetwork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeuralNetwork.dir/neural.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuralNetwork.dir/neural.cpp.o -c /home/brian-kamau/CLionProjects/NeuralNetwork/neural.cpp
 
-CMakeFiles/NeuralNetwork.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetwork.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian-kamau/CLionProjects/NeuralNetwork/main.cpp > CMakeFiles/NeuralNetwork.dir/main.cpp.i
+CMakeFiles/NeuralNetwork.dir/neural.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetwork.dir/neural.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian-kamau/CLionProjects/NeuralNetwork/neural.cpp > CMakeFiles/NeuralNetwork.dir/neural.cpp.i
 
-CMakeFiles/NeuralNetwork.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetwork.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian-kamau/CLionProjects/NeuralNetwork/main.cpp -o CMakeFiles/NeuralNetwork.dir/main.cpp.s
+CMakeFiles/NeuralNetwork.dir/neural.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetwork.dir/neural.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian-kamau/CLionProjects/NeuralNetwork/neural.cpp -o CMakeFiles/NeuralNetwork.dir/neural.cpp.s
 
-CMakeFiles/NeuralNetwork.dir/main.cpp.o.requires:
+CMakeFiles/NeuralNetwork.dir/neural.cpp.o.requires:
 
-.PHONY : CMakeFiles/NeuralNetwork.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/NeuralNetwork.dir/neural.cpp.o.requires
 
-CMakeFiles/NeuralNetwork.dir/main.cpp.o.provides: CMakeFiles/NeuralNetwork.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/NeuralNetwork.dir/main.cpp.o.provides
+CMakeFiles/NeuralNetwork.dir/neural.cpp.o.provides: CMakeFiles/NeuralNetwork.dir/neural.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NeuralNetwork.dir/build.make CMakeFiles/NeuralNetwork.dir/neural.cpp.o.provides.build
+.PHONY : CMakeFiles/NeuralNetwork.dir/neural.cpp.o.provides
 
-CMakeFiles/NeuralNetwork.dir/main.cpp.o.provides.build: CMakeFiles/NeuralNetwork.dir/main.cpp.o
+CMakeFiles/NeuralNetwork.dir/neural.cpp.o.provides.build: CMakeFiles/NeuralNetwork.dir/neural.cpp.o
 
 
 # Object files for target NeuralNetwork
 NeuralNetwork_OBJECTS = \
-"CMakeFiles/NeuralNetwork.dir/main.cpp.o"
+"CMakeFiles/NeuralNetwork.dir/neural.cpp.o"
 
 # External object files for target NeuralNetwork
 NeuralNetwork_EXTERNAL_OBJECTS =
 
-NeuralNetwork: CMakeFiles/NeuralNetwork.dir/main.cpp.o
+NeuralNetwork: CMakeFiles/NeuralNetwork.dir/neural.cpp.o
 NeuralNetwork: CMakeFiles/NeuralNetwork.dir/build.make
 NeuralNetwork: CMakeFiles/NeuralNetwork.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brian-kamau/CLionProjects/NeuralNetwork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable NeuralNetwork"
@@ -99,7 +99,7 @@ CMakeFiles/NeuralNetwork.dir/build: NeuralNetwork
 
 .PHONY : CMakeFiles/NeuralNetwork.dir/build
 
-CMakeFiles/NeuralNetwork.dir/requires: CMakeFiles/NeuralNetwork.dir/main.cpp.o.requires
+CMakeFiles/NeuralNetwork.dir/requires: CMakeFiles/NeuralNetwork.dir/neural.cpp.o.requires
 
 .PHONY : CMakeFiles/NeuralNetwork.dir/requires
 

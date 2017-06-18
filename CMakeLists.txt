@@ -3,5 +3,5 @@ project(NeuralNetwork)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
-add_executable(NeuralNetwork ${SOURCE_FILES})
+set(SOURCE_FILES neural.cpp)
+add_executable(NeuralNetwork ${SOURCE_FILES} neural.cpp)

@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/brian-kamau/CLionProjects/NeuralNetwork/main.cpp">
+		<Unit filename="/home/brian-kamau/CLionProjects/NeuralNetwork/neural.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
 		<Unit filename="/home/brian-kamau/CLionProjects/NeuralNetwork/CMakeLists.txt">
